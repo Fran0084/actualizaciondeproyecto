@@ -19,14 +19,13 @@ flex-direction: row;
 justify-content: space-between;
 align-items: center;
 position: fixed;
-
-
+z-index: 10000000;
 
 }
 
 .botonbusqueda{
   border: 1px solid white;
-border-radius: 15px;
+  border-radius: 15px;
   
   }
 
@@ -47,7 +46,7 @@ border-radius: 15px;
 }
 
 .input{
-border: 1px solid blue;
+border: 1px solid black;
 border-radius: 5px;
 width: 150px;
 }
@@ -55,11 +54,10 @@ width: 150px;
 
 
 .section{
-  padding-top: 450px;
+  padding-top: -50px;
 }
 
 .divsection1{
-  padding-top: 30;
 }
 
 .main{
@@ -185,6 +183,7 @@ border-style: groove;
   display: block;
   padding: 16px;
   
+  
 }
 
 .spanfooter{
@@ -217,8 +216,8 @@ border-style: groove;
 
 .wasap{
 padding: 16px;
-bottom: 75%;
-left: 60%;
+bottom: 72%;
+left: 71%;
 display: flex;
 position: fixed;
 
@@ -444,13 +443,14 @@ padding: 32px;
     display: flex;
     flex-direction: column;
     justify-content: start;
-    
-}
+    }
+
 
 
 .botonbusqueda{
   display: none;
 }
+
 
 .imagen{
   display: flex;
@@ -480,8 +480,6 @@ gap: 10px;
   background-image: linear-gradient(to right bottom, #0047b0, #d4dff1, #7894c2, #2d333b, #4b94ff);
 
 }
-
-
 }
 
 
@@ -510,6 +508,7 @@ justify-content: center;
   width: 200px;
   height: 150px;
 }
+
 
 .divcatalogos__{
   width: 250px;
@@ -555,3 +554,48 @@ align-items: center;
 
 
 }
+
+
+/*BOOTSTRAPS*/
+
+.imgboot{
+  width: 600px;
+  height: 275px;
+  border-radius: 50px;
+  border-style: outset;
+  }
+  
+  .sectionmainboot{
+  display: flex;
+  justify-items: center;
+  width: 600px;
+  height: 380px;
+  margin: auto;
+  padding-top: 100px;
+  }
+  
+  .carousel-inner{
+  width: 600px;
+  height: 400px;
+  }
+  
+  .divsectionboot {
+  height: 400px;
+  }
+
+  .carousel-control-prev{
+    padding-bottom: 125px;
+    padding-right: 50px;
+
+  }
+
+  .carousel-control-next{
+    padding-bottom: 125px;
+    padding-left: 50px;
+    
+}
+
+  
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    filter: invert(108%);
+  }

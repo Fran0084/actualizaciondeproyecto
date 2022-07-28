@@ -274,8 +274,11 @@ h3 {
 }
 
 .video__{
+  
   border-color: aliceblue;
+  border-radius: 50px;
   border-style: outset;
+  object-fit: cover;
 }
 
 

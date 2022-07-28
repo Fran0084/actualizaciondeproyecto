@@ -57,8 +57,6 @@ width: 150px;
   padding-top: -50px;
 }
 
-.divsection1{
-}
 
 .main{
   
@@ -602,3 +600,18 @@ align-items: center;
   .carousel-control-prev-icon, .carousel-control-next-icon {
     filter: invert(108%);
   }
+
+/* BOOTSTRAP CONTACTENOS
+Agregue un boton al final del formulario de busqueda
+*/
+
+.btn-light{
+border: solid white;
+border-radius: 30px;
+width: 100px;
+}
+
+.btn{
+  color: navy;
+font-weight: bold;
+}

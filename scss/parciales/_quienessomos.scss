@@ -1,0 +1,32 @@
+.mainquienes{
+    padding: 100px 16px;
+    background-image: linear-gradient(to right bottom, #0047b0, #1b5ac4, #2c6dd7, #3c80eb, #4b94ff);
+    color: aliceblue;
+  }
+  
+  h3 {
+    text-decoration: underline;
+    text-align: start;
+  }
+  
+  .imgquienes {
+    position: relative; top: 15px;
+    border-color: whitesmoke;
+    border-radius: 80px;
+    border-style: solid;
+    border-style: outset;
+  }
+  
+  .video {
+    display: flex; 
+    justify-content: space-around;
+  }
+  
+  .video__{
+    
+    border-color: aliceblue;
+    border-radius: 50px;
+    border-style: outset;
+    object-fit: cover;
+  }
+  

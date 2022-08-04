@@ -1,0 +1,41 @@
+.header {
+    background-color: white;
+    border-bottom: 3px solid grey;
+    padding: 16px;
+    width: 100%;
+    height: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 10000000;
+}
+
+.botonbusqueda{
+    border: 1px solid white;
+    border-radius: 15px;
+    
+}
+  
+  .ul{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  
+  .ul__{
+    list-style: none;
+    margin-left: 15px;
+    text-decoration: underline 1.5px;
+    font-size: 14px;
+    font-weight: bold
+    
+  
+  }
+  
+  .input{
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 150px;
+  }

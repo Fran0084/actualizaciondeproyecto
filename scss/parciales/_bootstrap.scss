@@ -1,0 +1,56 @@
+.imgboot{
+    width: 600px;
+    height: 275px;
+    border-radius: 50px;
+    border-style: outset;
+    }
+    
+    .sectionmainboot{
+    display: flex;
+    justify-items: center;
+    width: 600px;
+    height: 380px;
+    margin: auto;
+    padding-top: 100px;
+    }
+    
+    .carousel-inner{
+    width: 600px;
+    height: 400px;
+    }
+    
+    .divsectionboot {
+    height: 400px;
+    }
+  
+    .carousel-control-prev{
+      padding-bottom: 125px;
+      padding-right: 50px;
+  
+    }
+  
+    .carousel-control-next{
+      padding-bottom: 125px;
+      padding-left: 50px;
+      
+  }
+  
+    
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+      filter: invert(108%);
+    }
+  
+  /* BOOTSTRAP CONTACTENOS
+  Agregue un boton al final del formulario de busqueda
+  */
+  
+  .btn-light{
+  border: solid white;
+  border-radius: 30px;
+  width: 100px;
+  }
+  
+  .btn{
+    color: navy;
+  font-weight: bold;
+  }

@@ -39,6 +39,64 @@
   border-radius: 5px;
   width: 150px; }
 
+.footer {
+  background-color: white;
+  border-top: 3px solid grey;
+  width: 100%;
+  height: 100px;
+  display: block;
+  padding: 16px; }
+
+.spanfooter {
+  color: blue;
+  font-weight: bold;
+  text-decoration: underline;
+  display: flex;
+  justify-content: end;
+  position: relative;
+  bottom: 140px; }
+
+.a {
+  text-align: end;
+  position: relative;
+  bottom: 130px; }
+
+.pfooter {
+  position: relative;
+  bottom: 10px;
+  text-align: left;
+  font-size: 12px; }
+
+.imgfooter {
+  align-items: center; }
+
+.wasap {
+  padding: 16px;
+  bottom: 72%;
+  left: 71%;
+  display: flex;
+  position: fixed; }
+
+@keyframes iconowasap {
+  0% {
+    width: 100px;
+    opacity: 1; }
+  50% {
+    height: 300px;
+    opacity: 0; }
+  100% {
+    width: 100px;
+    opacity: 1; } }
+
+.wasap-- {
+  color: silver;
+  font-size: 14px;
+  animation: iconowasap;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-duration: 0.5s;
+  animation-delay: 1s; }
+
 .section {
   padding-top: -50px; }
 
@@ -128,65 +186,6 @@
   width: 200px;
   height: 150px; }
 
-.footer {
-  background-color: white;
-  border-top: 3px solid grey;
-  width: 100%;
-  height: 100px;
-  display: block;
-  padding: 16px; }
-
-.spanfooter {
-  color: blue;
-  font-weight: bold;
-  text-decoration: underline;
-  display: flex;
-  justify-content: end;
-  position: relative;
-  bottom: 140px; }
-
-.a {
-  text-align: end;
-  position: relative;
-  bottom: 130px; }
-
-.pfooter {
-  position: relative;
-  bottom: 10px;
-  text-align: left;
-  font-size: 12px; }
-
-.imgfooter {
-  align-items: center; }
-
-.wasap {
-  padding: 16px;
-  bottom: 72%;
-  left: 71%;
-  display: flex;
-  position: fixed; }
-
-@keyframes iconowasap {
-  0% {
-    width: 100px;
-    opacity: 1; }
-  50% {
-    height: 300px;
-    opacity: 0; }
-  100% {
-    width: 100px;
-    opacity: 1; } }
-
-.wasap-- {
-  color: silver;
-  font-size: 14px;
-  animation: iconowasap;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in;
-  animation-duration: 0.5s;
-  animation-delay: 1s; }
-
-/*QUIENES SOMOS */
 .mainquienes {
   padding: 100px 16px;
   background-image: linear-gradient(to right bottom, #0047b0, #1b5ac4, #2c6dd7, #3c80eb, #4b94ff);
@@ -214,7 +213,6 @@ h3 {
   border-style: outset;
   object-fit: cover; }
 
-/* PRODUCTOS */
 .mainproductos {
   color: aliceblue;
   background-image: linear-gradient(to right bottom, #0047b0, #1b5ac4, #2c6dd7, #3c80eb, #4b94ff);
@@ -237,7 +235,6 @@ h3 {
   padding-right: 16px;
   padding-bottom: 5px; }
 
-/* CONTACTENOS */
 .maincontactenos {
   color: aliceblue;
   background-image: linear-gradient(to right bottom, #0047b0, #1b5ac4, #2c6dd7, #3c80eb, #4b94ff);
@@ -275,7 +272,6 @@ h3 {
   width: 60px;
   height: 30px; }
 
-/* CATALOGOS*/
 .maincatalogos {
   color: aliceblue;
   background-image: linear-gradient(to right bottom, #0047b0, #1b5ac4, #2c6dd7, #3c80eb, #4b94ff);
@@ -325,7 +321,50 @@ h3 {
   padding-top: 16px;
   padding-bottom: 16px; }
 
-/* MEDIAS QUERIE*/
+.imgboot {
+  width: 600px;
+  height: 275px;
+  border-radius: 50px;
+  border-style: outset; }
+
+.sectionmainboot {
+  display: flex;
+  justify-items: center;
+  width: 600px;
+  height: 380px;
+  margin: auto;
+  padding-top: 100px; }
+
+.carousel-inner {
+  width: 600px;
+  height: 400px; }
+
+.divsectionboot {
+  height: 400px; }
+
+.carousel-control-prev {
+  padding-bottom: 125px;
+  padding-right: 50px; }
+
+.carousel-control-next {
+  padding-bottom: 125px;
+  padding-left: 50px; }
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  filter: invert(108%); }
+
+/* BOOTSTRAP CONTACTENOS
+  Agregue un boton al final del formulario de busqueda
+  */
+.btn-light {
+  border: solid white;
+  border-radius: 30px;
+  width: 100px; }
+
+.btn {
+  color: navy;
+  font-weight: bold; }
+
 @media screen and (max-width: 1023px) {
   .header {
     display: flex;
@@ -392,48 +431,3 @@ h3 {
     display: flex;
     justify-content: center;
     text-align: center; } }
-
-/*BOOTSTRAPS*/
-.imgboot {
-  width: 600px;
-  height: 275px;
-  border-radius: 50px;
-  border-style: outset; }
-
-.sectionmainboot {
-  display: flex;
-  justify-items: center;
-  width: 600px;
-  height: 380px;
-  margin: auto;
-  padding-top: 100px; }
-
-.carousel-inner {
-  width: 600px;
-  height: 400px; }
-
-.divsectionboot {
-  height: 400px; }
-
-.carousel-control-prev {
-  padding-bottom: 125px;
-  padding-right: 50px; }
-
-.carousel-control-next {
-  padding-bottom: 125px;
-  padding-left: 50px; }
-
-.carousel-control-prev-icon, .carousel-control-next-icon {
-  filter: invert(108%); }
-
-/* BOOTSTRAP CONTACTENOS
-  Agregue un boton al final del formulario de busqueda
-  */
-.btn-light {
-  border: solid white;
-  border-radius: 30px;
-  width: 100px; }
-
-.btn {
-  color: navy;
-  font-weight: bold; }

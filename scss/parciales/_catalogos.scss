@@ -1,0 +1,61 @@
+.maincatalogos {
+    color: aliceblue;
+    background-image: linear-gradient(to right bottom, #0047b0, #1b5ac4, #2c6dd7, #3c80eb, #4b94ff);
+    padding-top: 128px;
+    }
+
+    .divcatalogos{
+      display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 32px;
+    }
+
+    .divcatalogos__{
+      border: 4px solid whitesmoke;
+      border-radius: 10px;
+    }
+
+    .divcatalogos--{
+      text-align: center;
+      padding-bottom: 16px;
+    }
+
+    .revendedor{
+     display: flex;
+     flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .revendedor__{
+      display: inline-block;
+  width: 80px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  text-align: center;
+  }
+
+  .revendedor--{
+    text-align: center;
+    padding-top: 5px;
+  }
+
+    
+  .imgrevendedor{
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+    
+  }
+    
+    .buttoncatalogos{
+      width: 60px;
+  height: 30px;
+    }
+
+    .formcatalogos{
+      padding-top: 16px;
+      padding-bottom: 16px;
+    }
+    

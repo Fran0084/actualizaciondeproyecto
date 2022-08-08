@@ -542,8 +542,25 @@ font-weight: bold;
       background-image: linear-gradient(to right bottom, #0047b0, #d4dff1, #7894c2, #2d333b, #4b94ff);
     
     }
-    
-  /*BOOTSTRAPS*/
+
+    .divcatalogos{
+      display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 32px;
+    }
+
+    /*QUIENES SOMOS */
+
+    .video{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+
+    }
+  
+/*BOOTSTRAPS*/
 
   .sectionmainboot{
     display: flex;
@@ -551,6 +568,12 @@ font-weight: bold;
     width: 400px;
     height: 400px;
   }
+
+  /*BOTON WASAP*/
+
+  .wasap{
+    transform: translate(30px, 30px);
+    }
   
   }
 
@@ -631,7 +654,35 @@ font-weight: bold;
     width: 300px;
     height: 400px;
   }
-    
-    
+
+  /*CATALOGOS*/
+  .divcatalogos{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 32px;
+}
+
+/*QUIENES SOMOS */
+
+.video{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+ 
+}
+
+.section1quienessomos{
+  padding-top: 20px;
+}
+
+
+ /*BOTON WASAP*/
+
+ .wasap{
+transform: translate(30px, 30px);
+}
+
+
     }
-    

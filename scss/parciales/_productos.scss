@@ -1,27 +1,28 @@
+
+.mainproductos {
+  color: aliceblue;
+  background-image: linear-gradient(to right bottom, #0047b0, #1b5ac4, #2c6dd7, #3c80eb, #4b94ff);
+  padding-top: 128px;
+  }
   
-  .mainproductos {
-    color: aliceblue;
-    background-image: linear-gradient(to right bottom, #0047b0, #1b5ac4, #2c6dd7, #3c80eb, #4b94ff);
-    padding-top: 128px;
-    }
-    
-    .sectionproductos {
-    padding-left: 16px;
-    padding-top: 25px;
-    border: 5px solid silver;
-    
-    }
-    
-    
-    .divp {
-      font-size: 18px; color: beige;
-      font-style: italic;
-      font-weight: bolder;
-    }
-    
-    .inputproductos {
-    display: flex;
-    justify-content: end;
-    padding-right: 16px;
-    padding-bottom: 5px;
-    }
+  .sectionproductos {
+  padding-left: 16px;
+  padding-top: 25px;
+  border: 5px solid silver;
+  
+  }
+  
+  
+  .divp {
+    font-size: 18px; color: beige;
+    font-style: italic;
+    font-weight: bolder;
+  }
+  
+  .inputproductos {
+  display: flex;
+  justify-content: end;
+  padding-right: 16px;
+  padding-bottom: 5px;
+  }
+  

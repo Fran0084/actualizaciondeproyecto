@@ -1,72 +1,68 @@
 .footer {
-    background-color: white;
-    border-top: 3px solid grey;
-    width: 100%;
-    height: 100px;
-    display: block;
-    padding: 16px;
-    
-    
-  }
-  
-  .spanfooter{
-    color: blue;
-    font-weight: bold;
-    text-decoration: underline;
-    display: flex;
-    justify-content: end;
-    position: relative; bottom: 140px;
-  }
-  
-  .a {
-    text-align: end;
-    position: relative; bottom: 130px;
-  }
-  
-  .pfooter {
-    position: relative; bottom: 10px;
-    text-align: left;
-    font-size: 12px;
-  
-  }
-  
-  .imgfooter{
-    align-items: center;
-  }
-  
-  
-  
-  
-  .wasap{
+  background-color: white;
+  border-top: 3px solid lightblue;
+  width: 100%;
+  height: 100px;
+  display: block;
   padding: 16px;
-  bottom: 72%;
-  left: 71%;
+}
+.spanfooter{
+  color: blue;
+  font-weight: bold;
+  text-decoration: underline;
   display: flex;
-  position: fixed;
+  justify-content: end;
+  position: relative; bottom: 140px;
+}
+
+.a {
+  text-align: end;
+  position: relative; bottom: 130px;
+}
+
+.pfooter {
+  position: relative; bottom: 10px;
+  text-align: left;
+  font-size: 12px;
+
+}
+
+.imgfooter{
+  align-items: center;
+}
+
+
+
+
+.wasap{
+padding: 16px;
+bottom: 72%;
+left: 71%;
+display: flex;
+position: fixed;
+
+}
+
+@keyframes iconowasap{
+
+  0% {width: 100px;
+      opacity: 1;}
+  50% {height: 300px;
+       opacity: 0;}
+  100% {width: 100px;
+      opacity: 1;}
+}
+
+
+.wasap--{
+  color: silver;
+  font-size: 14px;
+
   
-  }
-  
-  @keyframes iconowasap{
-  
-    0% {width: 100px;
-        opacity: 1;}
-    50% {height: 300px;
-         opacity: 0;}
-    100% {width: 100px;
-        opacity: 1;}
-  }
-  
-  
-  .wasap--{
-    color: silver;
-    font-size: 14px;
-  
-    
-  animation: iconowasap;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in;
-  animation-duration: 0.5s;
-  animation-delay: 1s;
-  
-  }
-  
+animation: iconowasap;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in;
+animation-duration: 0.5s;
+animation-delay: 1s;
+
+}

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   padding: 0%;
   margin: 0;
@@ -35,11 +36,20 @@
   font-weight: bold; }
 
 .input {
+  border-color: lightblue;
+  font-weight: bold;
   border-radius: 5px;
   width: 150px; }
 
 .buttoncontactenos {
-  border-radius: 5px; }
+  font-weight: bold;
+  border-width: 0vmin;
+  border-radius: 5px;
+  border-style: inset;
+  transition: 1s; }
+
+.buttoncontactenos:hover {
+  background-color: lightblue; }
 
 .footer {
   background-color: white;
@@ -231,24 +241,70 @@ h3 {
 .mainproductos {
   color: aliceblue;
   background-image: linear-gradient(to right bottom, #0047b0, #1b5ac4, #2c6dd7, #3c80eb, #4b94ff);
-  padding-top: 128px; }
+  padding-top: 128px;
+  width: 100%; }
 
 .sectionproductos {
+  background: linear-gradient(0deg, #22c1c3 0%, #3c83dc 11%);
+  width: 500px;
+  height: 400px;
   padding-left: 16px;
-  padding-top: 25px;
-  border: 5px solid silver; }
+  padding-top: 4px;
+  margin-bottom: 5px;
+  border-radius: 20px;
+  border-bottom: 3px solid lightblue;
+  border-top: 1.5px ridge lightblue; }
 
-.divp {
-  font-size: 18px;
-  color: beige;
-  font-style: italic;
-  font-weight: bolder; }
-
+/*.divp {
+        font-size: 18px; color: beige;
+        font-style: italic;
+        font-weight: bolder;
+      }*/
 .inputproductos {
   display: flex;
   justify-content: end;
   padding-right: 16px;
-  padding-bottom: 5px; }
+  transform: translate(10px, -35px);
+  gap: 5px; }
+
+.inputproductos-- {
+  width: 75px;
+  height: 26px;
+  border-radius: 5px; }
+
+.botonproductos {
+  width: 55px;
+  height: 26px;
+  border-radius: 5px; }
+
+.divpadreproductos1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  padding-bottom: 15px; }
+
+.divpadreproductos2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px; }
+
+.ulproductos {
+  display: inline-block;
+  justify-items: start;
+  transform: translate(-30px); }
+
+.pproductos {
+  padding-left: 45px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal; }
+
+.inputproductos-adonis {
+  transform: translate(5px, 35px); }
+
+.inputproductos-handpush {
+  transform: translate(5px, 10px); }
 
 /* CONTACTENOS */
 .maincontactenos {

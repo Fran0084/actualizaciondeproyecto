@@ -1,0 +1,5 @@
+@mixin flexmedias($ancho, $alto, $ejeprincipal){
+    width: $ancho;
+    height: $alto;
+    justify-content: $ejeprincipal;
+    }

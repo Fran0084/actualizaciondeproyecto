@@ -552,9 +552,9 @@ Agregue un boton al final del formulario de busqueda
   /*BOOTSTRAPS*/
   .sectionmainboot {
     display: flex;
-    justify-content: center;
     width: 300px;
-    height: 400px; }
+    height: 400px;
+    justify-content: center; }
   .imgboot {
     width: 250px;
     height: 125px; }

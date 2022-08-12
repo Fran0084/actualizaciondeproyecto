@@ -82,32 +82,41 @@
 .imgfooter {
   align-items: center; }
 
+.ulfooter {
+  padding-top: 15px;
+  transform: translate(-30px); }
+
 .wasap {
   padding: 16px;
-  bottom: 72%;
+  bottom: 65%;
   left: 71%;
   display: flex;
   position: fixed; }
 
+.imgwasap {
+  width: 60px;
+  height: 60px; }
+
 @keyframes iconowasap {
   0% {
-    width: 100px;
+    width: 60px;
+    height: 60px;
     opacity: 1; }
   50% {
-    height: 300px;
+    width: 30px;
+    height: 30px;
     opacity: 0; }
   100% {
-    width: 100px;
+    width: 60px;
+    height: 60px;
     opacity: 1; } }
 
-.wasap-- {
-  color: silver;
-  font-size: 14px;
+.imgwasap {
   animation: iconowasap;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in;
-  animation-duration: 0.5s;
-  animation-delay: 1s; }
+  animation-duration: 0.8s;
+  animation-delay: 0.5s; }
 
 .section {
   padding-top: -50px; }
@@ -312,7 +321,7 @@ h3 {
   background-image: linear-gradient(to right bottom, #0047b0, #1b5ac4, #2c6dd7, #3c80eb, #4b94ff);
   padding-top: 128px;
   padding-left: 5px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
 
 .formulariodecontacto {
   font-size: 25px;
@@ -351,11 +360,40 @@ h3 {
   width: 60px;
   height: 30px; }
 
+@keyframes map {
+  0% {
+    width: 100px;
+    opacity: 1; }
+  50% {
+    height: 300px;
+    opacity: 0; }
+  100% {
+    width: 100px;
+    opacity: 1; } }
+
+.mapa__ {
+  color: navy;
+  background-color: white;
+  border-radius: 5px;
+  border: 3px solid lightblue;
+  border-style: outset;
+  font-size: 16px;
+  font-weight: bold;
+  animation: map;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-duration: 1.5s;
+  animation-delay: 1.5s; }
+
 /* CATALOGOS*/
 .maincatalogos {
   color: aliceblue;
   background-image: linear-gradient(to right bottom, #0047b0, #1b5ac4, #2c6dd7, #3c80eb, #4b94ff);
   padding-top: 128px; }
+
+.h1catalogos {
+  text-decoration: underline;
+  font-weight: bolder; }
 
 .divcatalogos {
   display: flex;
@@ -369,6 +407,8 @@ h3 {
   border-radius: 10px; }
 
 .divcatalogos-- {
+  font-weight: normal;
+  text-decoration: none;
   text-align: center;
   padding-bottom: 16px; }
 
@@ -499,6 +539,18 @@ Agregue un boton al final del formulario de busqueda
     display: none; }
   .sectioncontactenosmediasq {
     display: none; }
+  /*PRODUCTOS*/
+  .divpadreproductos1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 15px; }
+  .divpadreproductos2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; }
   /*BOOTSTRAPS*/
   .sectionmainboot {
     display: flex;
@@ -594,4 +646,51 @@ Agregue un boton al final del formulario de busqueda
     display: none; }
   /*BOTON WASAP*/
   .wasap {
-    transform: translate(30px, 30px); } }
+    transform: translate(30px, 30px); }
+  /*PRODUCTOS*/
+  .sectionproductos {
+    background: linear-gradient(0deg, #22c1c3 0%, #3c83dc 11%);
+    width: 250px;
+    height: 250px;
+    padding-left: 3px;
+    padding-top: 4px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    border-bottom: 3px solid lightblue;
+    border-top: 1.5px ridge lightblue; }
+  .ulproductos {
+    display: none; }
+  .pproductos {
+    padding-left: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: small; }
+  .pproductos2 {
+    display: none; }
+  .inputproductos {
+    display: flex;
+    justify-content: end;
+    padding-right: 16px;
+    transform: translate(10px, -35px);
+    gap: 5px; }
+  .inputproductos-- {
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    transform: translate(0px, 25px); }
+  .botonproductos {
+    width: 50px;
+    height: 25px;
+    border-radius: 8px;
+    font-size: small;
+    transform: translate(0px, 25px); }
+  .labelproductos {
+    font-size: small;
+    transform: translate(0px, 25px); } }
+
+@media screen and (max-width: 300px) {
+  .ul__ {
+    list-style: none;
+    margin-left: 15px;
+    text-decoration: underline 1.5px;
+    font-size: 12px;
+    font-weight: bold; } }

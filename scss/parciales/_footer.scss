@@ -31,38 +31,49 @@
   align-items: center;
 }
 
+.ulfooter{
+  padding-top: 15px;
+  transform:translate(-30px);
+}
 
 
 
 .wasap{
 padding: 16px;
-bottom: 72%;
+bottom: 65%;
 left: 71%;
 display: flex;
 position: fixed;
 
 }
 
+.imgwasap{
+  width: 60px;
+  height: 60px;
+}
+
 @keyframes iconowasap{
 
-  0% {width: 100px;
+  0% {width: 60px;
+    height: 60px;
       opacity: 1;}
-  50% {height: 300px;
+  50% {width: 30px;
+    height: 30px;
        opacity: 0;}
-  100% {width: 100px;
-      opacity: 1;}
+  100% {width: 60px;
+    height: 60px;
+      opacity: 1;
+    }
 }
 
 
-.wasap--{
-  color: silver;
-  font-size: 14px;
+.imgwasap{
 
   
 animation: iconowasap;
 animation-iteration-count: infinite;
 animation-timing-function: ease-in;
-animation-duration: 0.5s;
-animation-delay: 1s;
+animation-duration: 0.8s;
+animation-delay: 0.5s;
 
 }

@@ -7,6 +7,11 @@
     padding-top: 128px;
     }
 
+    .h1catalogos{
+      text-decoration: underline;
+font-weight: bolder;    
+    }
+
     .divcatalogos{
       display: flex;
 flex-direction: row;
@@ -21,9 +26,12 @@ padding: 32px;
     }
 
     .divcatalogos--{
+      font-weight: normal;
+      text-decoration: none;
       text-align: center;
       padding-bottom: 16px;
-    }
+
+}
 
     .revendedor{
      display: flex;

@@ -51,6 +51,10 @@
 .buttoncontactenos:hover {
   background-color: lightblue; }
 
+.imgheader {
+  width: 200px;
+  height: 50px; }
+
 .footer {
   background-color: white;
   border-top: 3px solid lightblue;
@@ -82,6 +86,10 @@
 .imgfooter {
   align-items: center; }
 
+.imgfooter-- {
+  width: 200px;
+  height: 50px; }
+
 .ulfooter {
   padding-top: 15px;
   transform: translate(-30px); }
@@ -96,6 +104,10 @@
 .imgwasap {
   width: 60px;
   height: 60px; }
+
+.redessolciales {
+  width: 50px;
+  height: 50px; }
 
 @keyframes iconowasap {
   0% {
@@ -220,6 +232,8 @@ h3 {
   padding-top: 15px; }
 
 .imgquienes {
+  width: 200px;
+  height: 200px;
   position: relative;
   top: 15px;
   border-color: whitesmoke;
@@ -233,6 +247,8 @@ h3 {
   padding-top: 20px; }
 
 .video__ {
+  width: 200px;
+  height: 200px;
   border-color: aliceblue;
   border-radius: 50px;
   border-style: outset;
@@ -246,6 +262,16 @@ h3 {
 .href3quienessomos:hover {
   background-color: gold;
   font-size: large; }
+
+.divquienes {
+  display: flex;
+  justify-content: center; }
+
+.spanquines {
+  font-weight: bolder;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center; }
 
 .mainproductos {
   color: aliceblue;
@@ -315,6 +341,18 @@ h3 {
 .inputproductos-handpush {
   transform: translate(5px, 10px); }
 
+.divproductos {
+  display: flex;
+  justify-content: center; }
+
+.divproductos__ {
+  color: white;
+  font-weight: bolder; }
+
+.imgproductos {
+  width: 150px;
+  height: 150px; }
+
 /* CONTACTENOS */
 .maincontactenos {
   color: aliceblue;
@@ -337,6 +375,10 @@ h3 {
   padding-top: 20px;
   display: flex;
   justify-content: center; }
+
+.divcontactenos-- {
+  width: 25px;
+  height: 25px; }
 
 .mapa {
   display: flex;
@@ -392,6 +434,8 @@ h3 {
   padding-top: 128px; }
 
 .h1catalogos {
+  display: flex;
+  justify-content: center;
   text-decoration: underline;
   font-weight: bolder; }
 
@@ -403,6 +447,8 @@ h3 {
   padding: 32px; }
 
 .divcatalogos__ {
+  width: 350px;
+  height: 350px;
   border: 4px solid whitesmoke;
   border-radius: 10px; }
 
@@ -430,12 +476,18 @@ h3 {
   padding-top: 5px; }
 
 .imgrevendedor {
+  width: 200px;
+  height: 200px;
   border: 3px solid whitesmoke;
   border-radius: 10px; }
 
 .buttoncatalogos {
   width: 60px;
   height: 30px; }
+
+.buttoncatalogos-- {
+  display: flex;
+  justify-content: center; }
 
 .formcatalogos {
   padding-top: 16px;

@@ -12,6 +12,9 @@ h3 {
 }
 
 .imgquienes {
+ 
+  width: 200px;
+  height: 200px;
   position: relative; top: 15px;
   border-color: whitesmoke;
   border-radius: 80px;
@@ -26,7 +29,8 @@ h3 {
 }
 
 .video__{
-  
+  width: 200px;
+  height: 200px;
   border-color: aliceblue;
   border-radius: 50px;
   border-style: outset;
@@ -42,4 +46,17 @@ h3 {
 .href3quienessomos:hover{
   background-color: gold;
   font-size: large;
+}
+
+
+.divquienes{
+  display: flex;
+  justify-content: center;
+}
+
+.spanquines{
+  font-weight: bolder;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
 }

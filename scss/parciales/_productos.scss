@@ -17,11 +17,6 @@ padding-left: 16px;
   border-top: 1.5px ridge lightblue;
   }
  
-  /*.divp {
-        font-size: 18px; color: beige;
-        font-style: italic;
-        font-weight: bolder;
-      }*/
  .inputproductos {
  display: flex;
  justify-content: end;
@@ -67,6 +62,7 @@ gap: 10px;
   }
   
   .pproductos{
+ text-decoration: underline;
  padding-left: 45px;
  font-family: 'Roboto', sans-serif;
  font-style: normal;

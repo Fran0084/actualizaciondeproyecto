@@ -448,7 +448,9 @@ h3 {
   border-radius: 10px; }
 
 .divcatalogos-- {
-  font-weight: normal;
+  color: whitesmoke;
+  font-size: 24px;
+  font-weight: bold;
   text-decoration: none;
   text-align: center;
   padding-bottom: 16px; }
